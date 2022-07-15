@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/source",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
+}

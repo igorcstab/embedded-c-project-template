@@ -1,3 +1,7 @@
+# Ignore binary/build directory
+build-Debug/*
+
+# C/C++ gitignore
 # Prerequisites
 *.d
 
