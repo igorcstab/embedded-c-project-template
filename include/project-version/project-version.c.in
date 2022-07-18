@@ -1,26 +1,26 @@
 #include <project-version.h>
 
-int get-project-name()
+char *getProjectName()
 {
     return "@PROJECT_NAME@";
 }
 
-int get-project-version()
+char *getProjectVersion()
 {
     return "@PROJECT_VERSION@";
 }
 
-int get-project-version-major()
+char *getProjectVersionMajor()
 {
-    return "@${PROJECT_NAME}_VERSION_MAJOR@";
+    return "@PROJECT_VERSION_MAJOR@";
 }
 
-int get-project-version-minor()
+char *getProjectVersionMinor()
 {
-    return "@${PROJECT_NAME}_VERSION_MINOR@";
+    return "@PROJECT_VERSION_MINOR@";
 }
 
-int get-project-version-patch()
+char *getProjectVersionPatch()
 {
-    return "@${PROJECT_NAME}_VERSION_PATCH@";
+    return "@PROJECT_VERSION_PATCH@";
 }

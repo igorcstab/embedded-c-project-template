@@ -1,5 +1,5 @@
 #!/bin/sh
 
 cd ..
-cd build
+cd build-Debug/source
 ./embedded-c-project-template

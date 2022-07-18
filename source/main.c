@@ -6,8 +6,7 @@
 
 int main()
 {
-    printf("Project Version");
-    // printf("inv_sqrt(%f) = %f", inv_sqrt(cacanito));
+    printf("%s\nVersion: %s\n", getProjectName(), getProjectVersion());
 }
 
 /*
@@ -15,8 +14,6 @@ int main()
 -std=gnu11
 -OX optimization level
 -Wall compiler warnings
-
-pg11 pg347
-
-bare metal 31
+-Wextra extra warnings to make code more precise
+-ggdb ads debug info to output file
 */

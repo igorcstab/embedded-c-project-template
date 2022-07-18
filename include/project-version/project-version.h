@@ -6,8 +6,8 @@
 #define PROJECT-VERSION-PATCH "@${PROJECT_NAME}_VERSION_PATCH@";
 */
 
-int get_project_name();
-int get_project_version();
-int get_project_version_major();
-int get_project_version_minor();
-int get_project_version_patch();
+char *getProjectName();
+char *getProjectVersion();
+char *getProjectVersionMajor();
+char *getProjectVersionMinor();
+char *getProjectVersionPatch();
