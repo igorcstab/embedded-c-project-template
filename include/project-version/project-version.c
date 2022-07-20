@@ -1,4 +1,5 @@
 #include <project-version.h>
+#include <stdio.h>
 
 char *getProjectName()
 {
@@ -23,4 +24,9 @@ char *getProjectVersionMinor()
 char *getProjectVersionPatch()
 {
     return "0";
+}
+
+void printVersion()
+{
+    printf("%s\nVersion: %s\n", getProjectName(), getProjectVersion());
 }

@@ -1,12 +1,8 @@
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
-
 #include "project-version.h"
 
 int main()
 {
-    printf("%s\nVersion: %s\n", getProjectName(), getProjectVersion());
+    printVersion();
 }
 
 /*
